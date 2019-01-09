@@ -1,0 +1,91 @@
+.top {
+	font-size: 19px;
+	color: white;
+	position: fixed;
+	z-index: 4;
+	background-color: black;
+	float: left;
+	width: 110%;
+	margin-top: none;
+	top: -0.2px;
+	left: -10px;
+}
+
+.top p{
+
+}
+
+button {
+	display: inline-block;
+}
+
+
+.text {
+	font-size: 19px;
+	color: blue;
+	position: absolute;
+	z-index: 2;
+	margin-left: 80px;
+	margin-top: 80px;
+	float: left;
+	width: 70%;
+}
+
+
+h3 {
+
+	font-size: 20px;
+}
+
+.image {
+	position: fixed;
+	z-index: 1;
+	overflow: none;
+	width: 20%;
+	float: right;
+	margin-left: 700px;
+	top: 200px;;
+}
+
+.image img {
+	width: 100%;
+	/*opacity: 0.5;*/
+	float: right;
+	background-blend-mode: multiply;
+}
+
+.image2 {
+
+	top: 60px;
+	position: fixed;
+	z-index: 3;
+	overflow: none;
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+}
+
+.image2 img {
+	width: 40%;
+	/*opacity: 0.5;*/
+	float: left;
+	background-blend-mode: multiply;
+}
+
+.image3 {
+
+	top: 400px;
+	position: fixed;
+	z-index: 3;
+	overflow: none;
+	width: 20%;
+	float: left;
+	margin-left: 0px;
+}
+
+.image3 img {
+	width: 40%;
+	/*opacity: 0.5;*/
+	float: left;
+	background-blend-mode: multiply;
+}
